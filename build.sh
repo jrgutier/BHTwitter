@@ -2,7 +2,7 @@
 
 LONG=sideloaded:,rootless:,trollstore
 OPTS=$(getopt -a weather --longoptions "$LONG" -- "$@")
-libcephei_URL="https://web.archive.org/web/20240222081324/https://cdn.discordapp.com/attachments/755439561454256132/1184388888475738243/libcephei.zip"
+libcephei_URL="https://github.com/hbang/libcephei/releases/download/2.0/cephei_sdk_2.0.zip"
 PROJECT_PATH=$PWD
 
 while :; do
